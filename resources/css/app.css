@@ -1,0 +1,16 @@
+
+.limitText {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limita a 3 líneas */
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis; /* Agrega puntos suspensivos (...) al final del texto truncado */
+}
+.centerSvg
+ {
+    display: flex;
+    justify-content: center;
+ }
+.cursorPointer {
+    cursor: pointer;
+}
